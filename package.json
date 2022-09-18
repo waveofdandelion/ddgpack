@@ -1,0 +1,36 @@
+{
+  "name": "dandelion-gpack",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "first-release": "commit-and-tag-version --first-release",
+    "commit": "cz",
+    "release": "commit-and-tag-version",
+    "deploy": "git push --follow-tags origin main"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/waveofdandelion/dandelion-gpack.git"
+  },
+  "keywords": [
+    "Gulp"
+  ],
+  "author": "Wave",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/waveofdandelion/dandelion-gpack/issues"
+  },
+  "homepage": "https://github.com/waveofdandelion/dandelion-gpack#readme",
+  "devDependencies": {
+    "commit-and-tag-version": "^10.1.0",
+    "commitizen": "^4.2.5",
+    "cz-conventional-changelog": "^3.3.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
