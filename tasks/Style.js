@@ -10,12 +10,14 @@ const purge = require("postcss-purgecss");
 const cleancss = require("gulp-clean-css");
 const concat = require("gulp-concat");
 const sourcemap = require("gulp-sourcemaps");
+const identifyMap = require("@gulp-sourcemaps/identity-map");
 // Browser-sync
 // const browserSync = require("browser-sync").create();
 
 let styles = () => {
     return src(paths.styles.src)
-        .pipe(sourcemap.init({ loadMaps: true }))
+        .pipe(sourcemap.init())
+        .pipe(identifyMap())
         .pipe(scss())
         .pipe(postcss([autoprefixer()]))
         .pipe(cleancss())
