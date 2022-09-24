@@ -1,1 +1,1 @@
-console.log("Hello Gulp and dear developers!!");
+const { series, parallel } = require("gulp");

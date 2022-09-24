@@ -1,6 +1,6 @@
 {
   "name": "dandelion-gpack",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -39,5 +39,8 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "gulp": "^4.0.2"
   }
 }
