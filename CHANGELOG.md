@@ -2,6 +2,31 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.0.4](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.0.3...v0.0.4) (2022-09-24)
+
+
+### Features
+
+* add gulp support for Style task ([d68da61](https://github.com/waveofdandelion/dandelion-gpack/commit/d68da61bb56b34016e665620ba6e32401706a9e6))
+* add Style task to gulp ([c504a9b](https://github.com/waveofdandelion/dandelion-gpack/commit/c504a9bbfb4784afba96aeaadc5f3dc91c5a7b02))
+
+
+### Bug Fixes
+
+* fix html and css eslint check ([d0edd53](https://github.com/waveofdandelion/dandelion-gpack/commit/d0edd535fb196d877142399001b1edbd83052810))
+
+
+### Others
+
+* **deps:** add renovate.json ([cc7145b](https://github.com/waveofdandelion/dandelion-gpack/commit/cc7145b81a44c7a34714d42d6d8dfa94b62a1118))
+* **deps:** pin dependencies ([ddaca02](https://github.com/waveofdandelion/dandelion-gpack/commit/ddaca02bfbffb01312339728f86aec99c08ff0e8))
+* **deps:** update actions/checkout action to v3 ([e92638c](https://github.com/waveofdandelion/dandelion-gpack/commit/e92638cf10291f792ec644f3cc9bf1a4affbf6db))
+
+
+### Docs
+
+* update project to v0.0.4 ([32dd16f](https://github.com/waveofdandelion/dandelion-gpack/commit/32dd16f943e0e5c59bf5c3c3227cc07af452f5ab))
+
 ### [0.0.3](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.0.2...v0.0.3) (2022-09-24)
 
 
