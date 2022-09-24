@@ -1,7 +1,5 @@
 {
     "*.js": "eslint --fix",
-    "*.css": "eslint --fix",
-    "*.html": "eslint --fix"
 }  
 
 
