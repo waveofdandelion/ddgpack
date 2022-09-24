@@ -31,16 +31,16 @@
     "eslint-config-prettier": "8.5.0",
     "eslint-config-xo": "0.42.0",
     "eslint-plugin-prettier": "4.2.1",
-    "gulp-clean-css": "^4.3.0",
-    "gulp-concat": "^2.6.1",
-    "gulp-postcss": "^9.0.1",
-    "gulp-sass": "^5.1.0",
-    "gulp-sourcemaps": "^3.0.0",
+    "gulp-clean-css": "4.3.0",
+    "gulp-concat": "2.6.1",
+    "gulp-postcss": "9.0.1",
+    "gulp-sass": "5.1.0",
+    "gulp-sourcemaps": "3.0.0",
     "husky": "8.0.1",
     "lint-staged": "13.0.3",
-    "postcss-purgecss": "^2.0.3",
+    "postcss-purgecss": "2.0.3",
     "prettier": "2.7.1",
-    "sass": "^1.55.0"
+    "sass": "1.55.0"
   },
   "config": {
     "commitizen": {
