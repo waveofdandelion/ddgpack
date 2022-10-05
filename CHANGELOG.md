@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.0.5](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.0.4...v0.0.5) (2022-09-24)
+
+
+### Features
+
+* add gulp js task ([ae860be](https://github.com/waveofdandelion/dandelion-gpack/commit/ae860becf7b335617dd223d680b6deebb113ae00))
+* **tasks:** add js minifier ([b4adb93](https://github.com/waveofdandelion/dandelion-gpack/commit/b4adb93a9a9bd35b91808b87b87ace63c5ba3e80))
+
+
+### Others
+
+* **deps:** pin dependencies ([b65ecb9](https://github.com/waveofdandelion/dandelion-gpack/commit/b65ecb9ea5f750c9dd800c9b5782cb6219565d1e))
+* **src:** add js src file ([415ea06](https://github.com/waveofdandelion/dandelion-gpack/commit/415ea061cc2745a243e540e14d2089577762d6e8))
+
 ### [0.0.4](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.0.3...v0.0.4) (2022-09-24)
 
 
