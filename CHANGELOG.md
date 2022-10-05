@@ -2,6 +2,29 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.0.6](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.0.5...v0.0.6) (2022-10-05)
+
+
+### Features
+
+* **tasks:** add server for hot reloading ([e029a13](https://github.com/waveofdandelion/dandelion-gpack/commit/e029a130f74c01e881bd11d85bb61cb7bf73439d))
+
+
+### Styling
+
+* **css:** check css styles for hot reloading ([1876e72](https://github.com/waveofdandelion/dandelion-gpack/commit/1876e72180daaa499c08631406c998d189c8007c))
+
+
+### Others
+
+* add task for server ([13d1d13](https://github.com/waveofdandelion/dandelion-gpack/commit/13d1d130fd612b7897ae2fb02d4441a07969a75b))
+* **src:** fix eslint ([94f9786](https://github.com/waveofdandelion/dandelion-gpack/commit/94f97864165fd9f7faa9932b1edb268e0e9ed01e))
+
+
+### Docs
+
+* **docs:** update project to v0.0.6 ([bd621b7](https://github.com/waveofdandelion/dandelion-gpack/commit/bd621b7d23e0f43c4907f2250d4ecf272809fd8f))
+
 ### [0.0.5](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.0.4...v0.0.5) (2022-09-24)
 
 
