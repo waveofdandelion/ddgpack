@@ -58,6 +58,6 @@
   "dependencies": {
     "autoprefixer": "^10.4.12",
     "gulp": "^4.0.2",
-    "gulp-imagemin": "^7.1.0"
+    "gulp-imagemin": "^8.0.0"
   }
 }
