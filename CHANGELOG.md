@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.0.7](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.0.6...v0.0.7) (2022-10-05)
+
+
+### Features
+
+* **tasks:** add image resize task ([958ea65](https://github.com/waveofdandelion/dandelion-gpack/commit/958ea6570ceb3dff068d54d6aadb4920faaad5c3))
+* **tasks:** add image resizing task ([bf6a322](https://github.com/waveofdandelion/dandelion-gpack/commit/bf6a322bdf4609b905bfda1f8ee86b3dd7b13e2c))
+
+
+### Others
+
+* **deps:** pin dependencies ([90acdb0](https://github.com/waveofdandelion/dandelion-gpack/commit/90acdb09451d59d2a940d280df67810f7bfd52ab))
+
+
+### Docs
+
+* **docs:** update to v0.0.7 ([8bf165a](https://github.com/waveofdandelion/dandelion-gpack/commit/8bf165a5cb635ae2eb28aa725f4d91dd8b36d1aa))
+
 ### [0.0.6](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.0.5...v0.0.6) (2022-10-05)
 
 
