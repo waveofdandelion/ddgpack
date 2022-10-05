@@ -1,5 +1,5 @@
 let options = {
-    imageResize: true,
+    imageResize: false,
     fontGeneration: true,
     deepCleanSrc: false,
 };
