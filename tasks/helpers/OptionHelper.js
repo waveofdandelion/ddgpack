@@ -1,6 +1,6 @@
 let options = {
     imageResize: false,
-    fontGeneration: true,
+    fontGeneration: false,
     deepCleanSrc: false,
 };
 

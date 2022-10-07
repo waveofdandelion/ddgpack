@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "prepare": "husky install",
-    "first-release": "commit-and-tag-version --first-release",
     "commit": "cz",
+    "first-release": "commit-and-tag-version --first-release",
+    "minor-release": "npm run release -- --release-as minor",
+    "major-release": "npm run release -- --release-as major",
     "release": "commit-and-tag-version",
     "deploy": "git push --follow-tags origin main"
   },
@@ -29,6 +31,7 @@
     "commit-and-tag-version": "10.1.0",
     "commitizen": "4.2.5",
     "cz-conventional-changelog": "3.3.0",
+    "del": "^6.1.0",
     "eslint": "8.24.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-config-xo": "0.42.0",
