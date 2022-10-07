@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.0.9](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.0.8...v0.0.9) (2022-10-07)
+
+
+### Features
+
+* **tasks:** add html minification task ([a990287](https://github.com/waveofdandelion/dandelion-gpack/commit/a9902870514a59df2d40bde91fcf0973d32788a7))
+
+
+### Docs
+
+* **docs:** update to v0.0.9 ([d58b7e9](https://github.com/waveofdandelion/dandelion-gpack/commit/d58b7e92657365278bd259063a4b7cbe587afa08))
+
 ### [0.0.8](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.0.7...v0.0.8) (2022-10-07)
 
 
