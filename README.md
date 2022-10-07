@@ -1,1 +1,1 @@
-# dandelion-gpack v0.0.9 NEW!!! html minification!
+# dandelion-gpack v0.1.0 NEW!!! build generation!

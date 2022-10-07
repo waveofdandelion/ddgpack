@@ -6,6 +6,7 @@ const watch = require("./tasks/Server");
 const images = require("./tasks/Image");
 const fonts = require("./tasks/Font");
 const html = require("./tasks/Html");
+const assets = require("./tasks/Public");
 
 exports.imageResize = series(
     images.images,
@@ -32,6 +33,20 @@ exports.rebaseFonts = series(fonts.transform, fonts.ttfRebase);
 exports.convertImages = series(images.images, images.cachemin);
 
 exports.htmlMin = series(html.html);
+
+exports.build = series(
+    styles.styles,
+    scripts.scripts,
+    styles.unusable,
+
+    parallel(
+        assets.publicCss,
+        assets.publicJs,
+        assets.publicFonts,
+        assets.publicImages,
+        html.html
+    )
+);
 
 exports.default = series(
     series(styles.styles, scripts.scripts),
