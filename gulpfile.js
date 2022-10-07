@@ -1,10 +1,11 @@
 const { series, parallel } = require("gulp");
 
-const images = require("./tasks/Image");
-const fonts = require("./tasks/Font");
 const styles = require("./tasks/Style");
 const scripts = require("./tasks/Script");
 const watch = require("./tasks/Server");
+const images = require("./tasks/Image");
+const fonts = require("./tasks/Font");
+const html = require("./tasks/Html");
 
 exports.imageResize = series(
     images.images,
@@ -29,6 +30,8 @@ exports.convertFonts = series(
 exports.rebaseFonts = series(fonts.transform, fonts.ttfRebase);
 
 exports.convertImages = series(images.images, images.cachemin);
+
+exports.htmlMin = series(html.html);
 
 exports.default = series(
     series(styles.styles, scripts.scripts),
