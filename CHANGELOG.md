@@ -2,6 +2,25 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.0.8](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.0.7...v0.0.8) (2022-10-07)
+
+
+### Features
+
+* **tasks:** add font transformation task from ttf to woff, woff2 and EOT ([13a4c50](https://github.com/waveofdandelion/dandelion-gpack/commit/13a4c500b1f57599cf3d8f84ad101718793fb4f1))
+* **tasks:** add image task for resizing images ([593f3c6](https://github.com/waveofdandelion/dandelion-gpack/commit/593f3c64676579291e92e004888e1bc48b37aa48))
+
+
+### Bug Fixes
+
+* **main:** fix direct commit to main branch ([37e73a9](https://github.com/waveofdandelion/dandelion-gpack/commit/37e73a95f2709448d3b463033eac42f2931ee825))
+
+
+### Docs
+
+* **docs:** update readme ([8b056e5](https://github.com/waveofdandelion/dandelion-gpack/commit/8b056e58bf9605b8fe89c608b506fe4336531a4d))
+* **docs:** update to v0.0.8 ([6042351](https://github.com/waveofdandelion/dandelion-gpack/commit/60423513314199b97f8a4e0b08d32344a5c46cc3))
+
 ### [0.0.7](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.0.6...v0.0.7) (2022-10-05)
 
 
