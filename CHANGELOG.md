@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.1.1](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.1.0...v0.1.1) (2022-10-07)
+
+
+### Features
+
+* **tasks:** add clean task for src and public folders ([209f115](https://github.com/waveofdandelion/dandelion-gpack/commit/209f1154af07d51dbf66838e330c9519b277514b))
+
+
+### Bug Fixes
+
+* **tasks:** fix clean task ([6daa020](https://github.com/waveofdandelion/dandelion-gpack/commit/6daa020404d93319311de8f21069d15d539d66c0))
+
+
+### Docs
+
+* **docs:** update to v0.2.0 ([0ee4a76](https://github.com/waveofdandelion/dandelion-gpack/commit/0ee4a768679e3e28a1f0bd56a38bccb771103d12))
+
 ## [0.1.0](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.0.9...v0.1.0) (2022-10-07)
 
 
