@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [commit-and-tag-version](https://github.com/absolute-version/commit-and-tag-version) for commit guidelines.
 
+### [0.1.2](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.1.1...v0.1.2) (2022-11-14)
+
+
+### Features
+
+* add Barba.js ([e9a1b5b](https://github.com/waveofdandelion/dandelion-gpack/commit/e9a1b5bd354a585158c805d9ccff8b0416ced885))
+
+
+### Docs
+
+* **docs:** update README ([3c27899](https://github.com/waveofdandelion/dandelion-gpack/commit/3c27899aa1fb5a1d23f056f11589f4732338af1c))
+
 ### [0.1.1](https://github.com/waveofdandelion/dandelion-gpack/compare/v0.1.0...v0.1.1) (2022-10-07)
 
 

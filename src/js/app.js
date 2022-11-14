@@ -1,8 +1,4 @@
-console.log(10);
-console.log(11);
-console.log(12);
-console.log(10);
-console.log(10);
-console.log(10);
-console.log(10);
-console.log(10);
+import barba from "@barba/core";
+import barbaCss from "@barba/css";
+
+barba.use(barbaCss);

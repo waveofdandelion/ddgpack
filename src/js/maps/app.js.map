@@ -1,0 +1,1 @@
+{"version":3,"names":[],"mappings":"","sources":["app.js"],"sourcesContent":["import barba from \"@barba/core\";\r\nimport barbaCss from \"@barba/css\";\r\n\r\nbarba.use(barbaCss);\r\n\r\n//# sourceMappingURL=maps/app.js.map\r\n"],"file":"../app.js"}
