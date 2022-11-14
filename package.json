@@ -31,7 +31,7 @@
     "commit-and-tag-version": "10.1.0",
     "commitizen": "4.2.5",
     "cz-conventional-changelog": "3.3.0",
-    "del": "^6.1.0",
+    "del": "^7.0.0",
     "eslint": "8.27.0",
     "eslint-config-prettier": "8.5.0",
     "eslint-config-xo": "0.42.0",
