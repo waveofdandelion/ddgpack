@@ -57,7 +57,7 @@
     "lint-staged": "13.0.3",
     "postcss-purgecss": "2.0.3",
     "prettier": "2.7.1",
-    "sass": "1.55.0"
+    "sass": "1.56.1"
   },
   "config": {
     "commitizen": {
