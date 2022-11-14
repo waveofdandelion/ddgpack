@@ -3,8 +3,10 @@ let { baseDir, deployDir } = require("./VariableHelper");
 let paths = {
     scripts: {
         src: `${baseDir}/js/app.js`,
+        srcMin: `${baseDir}/js/min/app.js`,
         srcPublic: `${baseDir}/js/*.js`,
         dest: `${baseDir}/js`,
+        destMin: `${baseDir}/min`,
         public: `${deployDir}/js`,
     },
 

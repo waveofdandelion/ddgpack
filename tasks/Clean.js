@@ -5,7 +5,7 @@ let cleanPublic = () => {
 };
 
 let cleanSrc = () => {
-    return del(["src/css", "src/js/app.min.js.map", "src/js/app.min.js"]);
+    return del(["src/css", "src/js/min/app.js.map", "src/js/min/app.min.js"]);
 };
 
 let deepCleanSrc = () => {
@@ -13,8 +13,8 @@ let deepCleanSrc = () => {
         "src/css",
         "src/**/dest",
         "src/images/dest",
-        "src/js/app.min.js.map",
-        "src/js/app.min.js",
+        "src/js/min/app.js.map",
+        "src/js/min/app.min.js",
     ]);
 };
 

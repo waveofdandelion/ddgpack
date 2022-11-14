@@ -55,6 +55,8 @@ exports.build = series(
     clean.cleanPublic,
     styles.styles,
     scripts.scripts,
+    scripts.renameScript,
+    scripts.deleteScript,
     styles.unusable,
 
     parallel(
@@ -68,7 +70,12 @@ exports.build = series(
 
 // Default main task for development you should to use it after devInit
 exports.dev = series(
-    series(styles.styles, scripts.scripts),
+    series(
+        styles.styles,
+        scripts.scripts,
+        scripts.renameScript,
+        scripts.deleteScript
+    ),
     parallel(watch.sync, watch.startWatch)
 );
 
@@ -79,6 +86,10 @@ exports.devInit = series(
         this.convertFonts || this.rebaseFonts,
         this.resizeImages || this.rebaseImages,
         styles.styles,
-        scripts.scripts
+        scripts.scripts,
+        scripts.renameScript,
+        scripts.deleteScript
     )
 );
+
+exports.rename = scripts.renameScript;
